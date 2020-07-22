@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/Individualmente"
+                android:id="@+id/indTitulo"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/Individualmente"
+            android:src="@drawable/indiw"
+            android:id="@+id/indImagem"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Adote medidas básicas de higiene, como lavar bem as mãos (dedos, unhas, punho, palma e dorso) com água e sabão e, de preferência, utilizar toalhas de papel para secá-las. Além do sabão, outro produto indicado para higienizar as mãos é o álcool gel, que também serve para limpar objetos como celulares e itens pessoais diversos." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Use lenço descartável para sua higiene nasal. Deve-se cobrir o nariz e a boca com um lenço de papel quando espirrar ou tossir e jogá-lo no lixo;
+Caso não tenha lenço de papel disponível ao tossir e espirrar, use o braço dobrado (e não as mãos) para cobrir o nariz e a boca.
+Evite tocar olhos, nariz e boca sem que as mãos estejam limpas;" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/botao"
+        android:text="Voltar"
+        android:onClick="irMenu"
+        android:id="@+id/indiBtn"
+        android:textColor="@color/branco" />
+
+</LinearLayout>

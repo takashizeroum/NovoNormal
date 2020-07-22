@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NovoNormal</string>
+    <string name="Login">Login</string>
+    <string name="Senha">Senha</string>
+    <string name="NovoNormal">Novo Normal</string>
+    <string name="Cadastrese">Cadastre-se</string>
+    <string name="Individualmente">Individualmente</string>
+    <string name="EmGrupo">Em Grupo</string>
+    <string name="EmCasa">Em Casa</string>
+    <string name="NoTrabalho">No Trabalho</string>
+    <string name="TransPublico">Transporte Público</string>
+    <string name="TransParticular">Transporte Particular</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Sair">Sair</string>
+
+</resources>

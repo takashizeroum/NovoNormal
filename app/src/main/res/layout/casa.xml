@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/EmCasa"
+                android:textSize="30sp"
+                android:id="@+id/casaTitulo"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/EmCasa"
+            android:src="@drawable/homew"
+            android:id="@+id/casaImagem"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Utilize produtos usuais para a limpeza doméstica, dando preferência para o uso da água sanitária (em uma solução de uma parte de água sanitária para 9 partes de água) para desinfetar superfícies (veja aqui como limpar);" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Utilize detergentes próprios para a higienização das louças e roupas. É importante separar roupas e roupas de cama de pessoas infectadas para que seja feita a higienização à parte. Caso não haja a possibilidade de fazer a lavagem dessas roupas imediatamente, a recomendação é que elas sejam armazenadas em sacos de lixo plástico até que seja possível lavar;" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Também é importante comprar antecipadamente e ter em suas residências medicamentos para dor e redução da febre (como paracetamol), controle da tosse (como xaropes e pastilhas), além de medicamentos de uso contínuo. Mas não compre de forma exagerada para que todos tenham acesso às formas de alívio dos sintomas." />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/botao"
+        android:onClick="irMenu"
+        android:text="Voltar"
+        android:id="@+id/casaBtn"
+        android:textColor="@color/branco" />
+
+
+</LinearLayout>
