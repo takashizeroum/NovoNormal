@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/estiloSemBarra">
-        <activity android:name=".Login"></activity>
+        <activity android:name=".Particular"></activity>
+        <activity android:name=".Publico" />
+        <activity android:name=".EmGrupo" />
+        <activity android:name=".Individual" />
+        <activity android:name=".NoTrabalho" />
+        <activity android:name=".EmCasa" />
+        <activity android:name=".Login" />
         <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecebeLayouts" />
         <activity android:name=".MainActivity" />
     </application>
 

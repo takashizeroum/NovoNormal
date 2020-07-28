@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RecebeLayouts"
-    android:orientation="vertical">
-
-
+    android:orientation="vertical"
+    tools:context=".NoTrabalho">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,50 +18,46 @@
             android:gravity="center">
 
             <TextView
+                android:id="@+id/trabalhoTitulo"
                 style="@style/TextAppearance.AppCompat.Subhead"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="sans-serif-light"
-                android:text="@string/EmGrupo"
-                android:id="@+id/recTitulo"
+                android:text="@string/NoTrabalho"
                 android:textSize="30sp" />
         </LinearLayout>
 
-
         <ImageView
+            android:id="@+id/trabalhoImagem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="@string/EmGrupo"
-            android:src="@drawable/grupow"
-            android:id="@+id/recImagem"/>
+            android:contentDescription="@string/NoTrabalho"
+            android:src="@drawable/workw" />
 
     </LinearLayout>
 
-    <LinearLayout
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ListView
+        android:id="@+id/listtr"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/recLista"/>
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>
 
 
     <Button
+        android:id="@+id/trabalhoBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@color/botao"
+        android:onClick="irMenu"
         android:text="Voltar"
-        android:id="@+id/recBotao"
         android:textColor="@color/branco" />
-
 
 
 </LinearLayout>

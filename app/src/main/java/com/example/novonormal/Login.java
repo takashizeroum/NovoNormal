@@ -16,7 +16,6 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
 
-
         Button btnEntrar = findViewById(R.id.btnEntrar);
         /*
         Button txtLogin = findViewById(R.id.txtLogin);

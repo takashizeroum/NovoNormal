@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/testeee">
+    tools:context=".Particular">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,52 +18,46 @@
             android:gravity="center">
 
             <TextView
+                android:id="@+id/partTitulo"
                 style="@style/TextAppearance.AppCompat.Subhead"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="sans-serif-light"
                 android:text="@string/TransParticular"
-                android:id="@+id/partTitulo"
                 android:textSize="30sp" />
         </LinearLayout>
 
 
         <ImageView
+            android:id="@+id/partImagem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/TransParticular"
-            android:src="@drawable/carw"
-            android:id="@+id/partImagem"/>
+            android:src="@drawable/carw" />
 
     </LinearLayout>
-
-    <LinearLayout
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ListView
+        android:id="@+id/listpa"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:text="Utilizar álcool gel antes de subir e após descer do veículo, pois o vírus pode ser transmitido por objetos e superfícies.Utilize máscaras de tecido mesmo dentro do veículo." />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:text="No transporte particular , as empresas reforçam a higienização diária dos veículos, porém se possivel deve ser verificado a situação higiênica do veículo, e caso for o  com maior frequência durante o dia, além de manter as janelas abertas sempre que possível.Em trasnporte contratados atavés de aplicativos , além da higienização reforçada, as empresas redobram a atenção quanto à disponibilidade de álcool em gel em locais de atendimento e durante o embarque, mas deve sempre levar consigo seu ácool em gel." />
-    </LinearLayout>
+</LinearLayout>
+
+
 
     <Button
+        android:id="@+id/partBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@color/botao"
         android:onClick="irMenu"
         android:text="Voltar"
-        android:id="@+id/partBtn"
         android:textColor="@color/branco" />
 
 </LinearLayout>

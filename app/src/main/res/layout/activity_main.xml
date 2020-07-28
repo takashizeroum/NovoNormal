@@ -15,6 +15,9 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:onClick="individual"
+            android:clickable="true"
+            android:focusable="true"
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_margin="5dp"
@@ -38,6 +41,9 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:onClick="grupo"
+            android:clickable="true"
+            android:focusable="true"
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_margin="5dp"
@@ -69,6 +75,9 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:onClick="casaa"
+            android:focusable="true"
+            android:clickable="true"
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_margin="5dp"
@@ -93,6 +102,9 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:onClick="trabalho"
+            android:clickable="true"
+            android:focusable="true"
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_margin="5dp"
@@ -124,6 +136,9 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:onClick="publico"
+            android:clickable="true"
+            android:focusable="true"
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_margin="5dp"
@@ -147,6 +162,9 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:onClick="particular"
+            android:clickable="true"
+            android:focusable="true"
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_margin="5dp"
@@ -180,6 +198,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:onClick="sair"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/botao"

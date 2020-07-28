@@ -25,6 +25,5 @@ public class Splash extends AppCompatActivity {
                 , 3000);
 
 
-
     }
 }
