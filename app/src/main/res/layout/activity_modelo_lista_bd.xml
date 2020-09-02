@@ -20,7 +20,7 @@
             android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Locais com Serviço de Entrega"
+            android:text="Serviços de Entrega"
             android:textSize="20sp" />
         <include layout="@layout/botoesnav"/>
         <ListView
