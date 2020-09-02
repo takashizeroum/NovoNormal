@@ -13,8 +13,8 @@
         android:layout_height="200dp"
         android:layout_gravity="center"
         android:layout_marginTop="75dp"
-        android:src="@drawable/logo"
-        android:contentDescription="@string/NovoNormal"/>
+        android:contentDescription="@string/NovoNormal"
+        android:src="@drawable/logo" />
 
     <TextView
         style="@style/TextAppearance.AppCompat.Medium"
@@ -22,18 +22,18 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:labelFor="@id/txtLogin"
         android:text="@string/Login"
-        android:textColor="@color/preto"
-        android:labelFor="@id/txtLogin"/>
+        android:textColor="@color/preto" />
 
     <EditText
         android:id="@+id/txtLogin"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:maxLength="50"
         android:drawableRight="@drawable/ic_help"
-        />
+        android:inputType="textEmailAddress"
+        android:maxLength="50" />
 
     <TextView
         style="@style/TextAppearance.AppCompat.Medium"
@@ -41,16 +41,16 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:labelFor="@id/txtSenha"
         android:text="@string/Senha"
-        android:textColor="@color/preto"
-        android:labelFor="@id/txtSenha"/>
+        android:textColor="@color/preto" />
 
     <EditText
         android:id="@+id/txtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:maxLength="8"/>
+        android:maxLength="8" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -78,6 +78,7 @@
 
 
     </LinearLayout>
+
     <Button
         android:id="@+id/btnCadastrar"
         android:layout_width="match_parent"

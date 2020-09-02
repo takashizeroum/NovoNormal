@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/estiloSemBarra">
-        <activity android:name=".Particular"></activity>
+        <activity android:name=".Adicionabd"></activity>
+        <activity android:name=".ModeloListaBd3" />
+        <activity android:name=".ModeloListaBd2" />
+        <activity android:name=".ModeloListaBd" />
+        <activity android:name=".viewBanco" />
+        <activity android:name=".Particular" />
         <activity android:name=".Publico" />
         <activity android:name=".EmGrupo" />
         <activity android:name=".Individual" />

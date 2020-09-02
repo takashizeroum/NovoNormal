@@ -57,6 +57,6 @@
         android:layout_gravity="center"
         android:background="@color/botao"
         android:onClick="irMenu"
-        android:text="Voltar"
+        android:text="@string/volta"
         android:textColor="@color/branco" />
 </LinearLayout>

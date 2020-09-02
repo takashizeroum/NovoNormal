@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/grupoTitulo"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="Editar Local"
+        android:textSize="20sp" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Nome"
+        android:textColor="@color/preto"
+        />
+
+    <EditText
+        android:focusedByDefault="false"
+        android:id="@+id/txtnomeform2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLength="15"
+
+        />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Endereço"
+        android:textColor="@color/preto"
+        android:labelFor="@id/txtSenha"/>
+
+    <EditText
+        android:id="@+id/txtendereçoform2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLength="15"/>
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Contato"
+        android:textColor="@color/preto"
+        android:labelFor="@id/txtSenha"/>
+
+    <EditText
+        android:id="@+id/txtcontatoform2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLength="200"/>
+
+    <Button
+        android:id="@+id/ediemp"
+        android:layout_margin="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/botao"
+        android:text="Editar Empresa"
+        android:textColor="@color/branco"
+        />
+
+</LinearLayout>

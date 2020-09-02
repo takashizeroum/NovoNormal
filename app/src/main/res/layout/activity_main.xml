@@ -22,7 +22,7 @@
             android:layout_height="190dp"
             android:layout_margin="5dp"
             android:id="@+id/menIndividual"
-            app:cardBackgroundColor="@color/amarelo"
+
             app:cardCornerRadius="10dp"
             android:elevation="6dp">
 
@@ -109,6 +109,7 @@
             android:layout_height="190dp"
             android:layout_margin="5dp"
             android:id="@+id/menTrabalho"
+            app:cardBackgroundColor="@color/amarelo"
             app:cardCornerRadius="10dp"
             android:elevation="6dp">
 
@@ -202,7 +203,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/botao"
-            android:text="Sair"
+            android:text="@string/volta"
+            android:textColor="@color/preto"
+            android:layout_margin="15dp"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:onClick="locais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/botao"
+            android:text="Não quero sair de casa"
             android:textColor="@color/branco"
             />
 

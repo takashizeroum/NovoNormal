@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adicionabd"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/grupoTitulo"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="Cadastre um Local"
+        android:textSize="20sp" />
+
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Nome"
+        android:textColor="@color/preto"
+        />
+
+    <EditText
+
+        android:id="@+id/txtnomeform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+
+        />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Endereço"
+        android:textColor="@color/preto"
+        android:labelFor="@id/txtSenha"/>
+
+    <EditText
+        android:id="@+id/txtendereçoform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"/>
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Contato"
+        android:textColor="@color/preto"
+        android:labelFor="@id/txtSenha"/>
+
+    <EditText
+        android:id="@+id/txtcontatoform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLength="200"/>
+
+    <Button
+        android:id="@+id/indempff"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/botao"
+        android:text="Indicar Empresa"
+        android:textColor="@color/branco"
+        />
+
+    <Button
+        android:id="@+id/votaminmen"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/botao"
+        android:text="Voltar"
+        android:textColor="@color/branco"
+        />
+
+
+
+</LinearLayout>

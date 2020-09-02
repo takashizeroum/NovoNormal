@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titulobd"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/Locais"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/contatobd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/NovoNormal"
+                />
+
+            <TextView
+                android:id="@+id/enderecobd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="endereço"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            >
+
+
+            <Button
+                android:id="@+id/editabdn"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+
+                android:background="@color/botao"
+
+                android:text="Editar"
+                android:textColor="@color/branco"
+                />
+
+            <Button
+                android:id="@+id/excluibdn"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/botao"
+
+                android:text="Excluir"
+                android:textColor="@color/preto" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

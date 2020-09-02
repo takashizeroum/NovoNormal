@@ -6,12 +6,6 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -59,7 +53,14 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void sair(View view) {
+        Intent casa = new Intent(getApplicationContext(), Login.class);
+        startActivity(casa);
         finish();
+    }
+
+    public void locais(View view) {
+        Intent casa = new Intent(getApplicationContext(), viewBanco.class);
+        startActivity(casa);
     }
 
 
